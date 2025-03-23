@@ -5,28 +5,27 @@ h1{
     margin: 0;
     font-size: 60;
     color: white;
-    font-size: 100px;
-    border: solid 2.5px;
-    border-radius: 45px;
+    font-size: 90px;
 }
 
 h2{
-    height: 190px;
-    border: 0;
-    padding: 2;
-    margin: 0;
-    font-size: 40px;
-    color: white;
     font-size: 45px;
 }
 
+h3{
+    width: auto;
+    font-size: 25px;
+    color: white;
+}
+
 p{
+    text-align: left;
     border: 0;
     padding: 2;
     margin: 0;
     font-size: 8;
     color: white;
-    font-size: 28px;
+    font-size: 19px;
 }
 
 a{
@@ -35,7 +34,12 @@ a{
 
 body{
     text-align: center;
-    background-image: url('images/background.jpg');
+    background-color: black;
+}
+
+.img_produto{
+    max-width: 180px;
+    max-height: 180px;
 }
 
 .flex{
@@ -46,15 +50,21 @@ body{
 	margin: 2px;
     width: 60px;
     height: 30px;
-	text-align: center;
 	font-size: 1.5em;
     border: solid 1.5px white;
-    border-radius: 0 12px 0 12px;
 }
 
 .container{
-    max-width: 1000px;
-	margin: 0 auto;
+    margin: 30px;
+    padding: 25px;
+    width: 1000px;
+    height: 300px;
+    background-color: blue;
+}
+
+.container_link{
+    width: 20px;
+    margin: auto;
 }
 
 .flex {
