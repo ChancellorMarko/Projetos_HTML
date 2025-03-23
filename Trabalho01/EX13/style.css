@@ -29,7 +29,7 @@ body{
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(183, 173, 206);
 }
 
 .img_produto{
@@ -68,6 +68,7 @@ ins{
 
 .container_link{
     margin: 20px; /* Margem do container que vai o link*/
+    justify-content: center; /*Centralizar o conteudo*/
 }
 
 .flex {

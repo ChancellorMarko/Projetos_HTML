@@ -1,60 +1,51 @@
 h1{
-    height: 120px;
-    border: 0;
-    padding: 2;
-    margin: 0;
-    font-size: 60;
+    font-size: 80px;
     color: white;
-    font-size: 100px;
-    border: solid 2.5px;
-    border-radius: 45px;
+    margin: 20px;
+    padding: 20px;
 }
 
 h2{
-    height: 190px;
-    border: 0;
-    padding: 2;
-    margin: 0;
-    font-size: 40px;
-    color: white;
     font-size: 45px;
+    margin: 20px;
+    color: white;
 }
 
 p{
-    border: 0;
-    padding: 2;
-    margin: 0;
-    font-size: 8;
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
     color: white;
-    font-size: 28px;
 }
 
 a{
-    color: white;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(53, 53, 255);
+    text-decoration: none; /*Tirar o sublinhado*/
+    border: 2px solid rgb(53, 53, 255);
+    border-radius: 5px;
 }
 
 body{
+    font-family: Arial, sans-serif;
     text-align: center;
     background-image: url('images/background.jpg');
-}
-
-.flex{
-    display: flex;
+    margin: 0;
+    padding: 20px;
 }
 
 .item {
-	margin: 2px;
-    width: 60px;
-    height: 30px;
-	text-align: center;
-	font-size: 1.5em;
-    border: solid 1.5px white;
-    border-radius: 0 12px 0 12px;
+	margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .container{
-    max-width: 1000px;
-	margin: 0 auto;
+    margin: 0px;
+    padding: 20px;
+    max-width: 100  0px;
+    justify-content: center; /*Alinhar o conteudo no centro*/
 }
 
 .flex {
@@ -63,8 +54,4 @@ body{
 
 .flex-wrap {
 	flex-wrap: wrap;
-}
-
-.flex-item-1 {
-	flex: 1;
 }

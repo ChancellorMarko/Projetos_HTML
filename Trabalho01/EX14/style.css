@@ -1,0 +1,79 @@
+h1{
+    padding: 20px;
+    margin: 0;
+    font-size: 60px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+}
+
+a{
+    color: #268dfa; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 20px;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.img_produto{
+    max-width: 180px;
+    max-height: 180px;
+}
+
+del{
+    color: red; /*Cor do preço original*/
+}
+
+ins{
+    color: green; /*Cor do preço com desconto*/
+}
+
+.flex{
+    display: flex;
+}
+
+.item {
+	margin: 15px;
+    padding: 15px;
+    width: 200px;
+	font-size: 1.5px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.container{
+    margin: 50px;
+    padding: 20px;
+    max-width: 1200px;
+    height: 300px;
+    justify-content: center; /*Centralizar o conteudo*/
+}
+
+.container_link{
+    margin: 20px; /* Margem do container que vai o link*/
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
