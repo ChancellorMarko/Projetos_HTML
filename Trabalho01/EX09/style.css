@@ -1,10 +1,12 @@
 h1{
+    text-decoration: underline; 
     font-size: 85px;
     color: white;
     margin: 23px;
     padding: 23px;
 }
 h2{
+    text-decoration: underline wavy white 3px; 
     font-size: 50px;
     color: white;
     margin: 23px;
