@@ -146,3 +146,24 @@ button {
     90%, 99.99% { content: "0"; }
     100% { content: "9"; }
 }
+
+/* Parte do timer*/
+
+/* Parte da nav bar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Cor de fundo */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white; /* Cor do texto */
+    text-decoration: none;
+    margin: 0 2px; /* Espaçamento entre os links (20px à esquerda e à direita) */
+    padding: 6px 10px; /* Espaçamento interno dos links */
+}
+
+/* Parte da nav bar*/
