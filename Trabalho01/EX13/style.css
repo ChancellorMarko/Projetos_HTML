@@ -37,6 +37,11 @@ body{
     max-height: 180px;
 }
 
+.img_icon{
+    max-width: 50px;
+    max-height: 50px;
+}
+
 del{
     color: red; /*Cor do preço original*/
 }
@@ -78,3 +83,22 @@ ins{
 .flex-wrap {
 	flex-wrap: wrap;
 }
+
+/* Parte da nav bar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 138, 170); /* Cor de fundo */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+    padding: 6px 10px; /* Espaçamento interno dos links */
+}
+
+/* Parte da nav bar*/

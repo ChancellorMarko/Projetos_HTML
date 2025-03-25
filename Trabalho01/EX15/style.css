@@ -160,9 +160,9 @@ nav {
 }
 
 nav a {
-    color: white; /* Cor do texto */
+    color: white;
     text-decoration: none;
-    margin: 0 2px; /* Espaçamento entre os links (20px à esquerda e à direita) */
+    margin: 0 2px;
     padding: 6px 10px; /* Espaçamento interno dos links */
 }
 
