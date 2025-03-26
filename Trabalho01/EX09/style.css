@@ -40,6 +40,8 @@ ul.task-list {
     justify-content: flex-start; 
     margin: 0 auto; 
     width: fit-content;
+    width: 80%; 
+    max-width: 740px;
 }
 
 ul.task-list li {  
