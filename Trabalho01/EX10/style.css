@@ -1,3 +1,9 @@
+h1 {
+    font-size: 85px;
+    margin: 23px;
+    padding: 23px;
+    color: white;
+}
 a{
     color: white; 
     text-decoration: none; 
@@ -9,7 +15,7 @@ body {
     padding: 0; 
     font-family: arial, sans-serif;
     background-color: rgb(129, 5, 125); 
-    background-image: url('Fundo.jpg');  
+    background-image: url('Imagens/Fundo01.jpg');  
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
