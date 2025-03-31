@@ -71,11 +71,6 @@ ins{
     justify-content: center; /*Centralizar o conteudo*/
 }
 
-.container_link{
-    margin: 20px; /* Margem do container que vai o link*/
-    justify-content: center; /*Centralizar o conteudo*/
-}
-
 .flex {
 	display: flex;
 }

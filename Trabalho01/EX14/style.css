@@ -9,7 +9,8 @@ h2{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 190%;
+    margin: 2%;
 }
 
 p{
@@ -24,25 +25,27 @@ a{
     font-size: 20px;
 }
 
+span{
+    text-align: justify;
+    margin: 2%;
+}
+
 body{
     text-align: center;
-    margin: 0;
-    padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
-.img_produto{
-    max-width: 180px;
-    max-height: 180px;
+.img_profile{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 4%;
+    padding: 4%;
 }
 
-del{
-    color: red; /*Cor do preço original*/
-}
-
-ins{
-    color: green; /*Cor do preço com desconto*/
+.img_logo{
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .flex{
@@ -61,13 +64,19 @@ ins{
 .container{
     margin: 50px;
     padding: 20px;
-    max-width: 1200px;
-    height: 300px;
+    max-width: fit-content;
+    max-height: fit-content;
     justify-content: center; /*Centralizar o conteudo*/
+    border-bottom: solid 1px;
+    border-top: solid 1px;
 }
 
-.container_link{
-    margin: 20px; /* Margem do container que vai o link*/
+.img_container{
+    margin: 1.2%;
+    padding: 1.2%;
+    max-width: fit-content;
+    max-height: fit-content;
+    justify-content: center; /*Centralizar o conteudo*/
 }
 
 .flex {
