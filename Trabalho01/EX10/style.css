@@ -1,3 +1,9 @@
+h1 {
+    font-size: 85px;
+    margin: 23px;
+    padding: 23px;
+    color: white;
+}
 a{
     color: white; 
     text-decoration: none; 
@@ -8,12 +14,48 @@ body {
     margin: 0;
     padding: 0; 
     font-family: arial, sans-serif;
-    background-color: rgb(129, 5, 125);  
+    background-color: rgb(129, 5, 125); 
+    background-image: url('Imagens/Fundo01.jpg');  
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
     height: 100vh; 
+}
+.testemunhos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.testemunho {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+.depoimento p {
+    font-style: italic; 
+    font-size: 1.2em;
+    color: #020202;
+}
+
+footer {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #b62e98;
+}
+.foto {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    margin-bottom: 15px;
 }
 .flex{
     display: flex;
@@ -24,7 +66,7 @@ body {
     width: 80px;
     font-size: 1.5px;
     border-radius: 8px;
-    background-color: rgb(0, 0, 0);
+    background-color: white
 }
 
 .container_link{
@@ -35,4 +77,7 @@ body {
     position: absolute;
     top: 10px;  
     left: 10px; 
+}
+.voltar a{
+    color: black;
 }
