@@ -24,12 +24,16 @@ body {
     padding: 0; 
     font-family: arial, sans-serif;
     background-color: rgb(129, 5, 125); 
-    background-image: url('Fundo1.jpg'); 
+    background-image: url('./Imagens/Fundo.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
     height: 100vh; 
+}
+.img_logo{
+    max-width: 60px;
+    max-height: auto;
 }
 ul.task-list {
     list-style-type: none; 
@@ -90,5 +94,19 @@ input[type="checkbox"] {
     top: 10px;  
     left: 10px; 
 }
-
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    margin: 1.4%;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+    padding: 6px 10px; /* Espaçamento interno dos links */
+  }
 
