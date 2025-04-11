@@ -2,7 +2,7 @@ h1 {
     font-size: 85px;
     margin: 23px;
     padding: 23px;
-    color: white;
+    color: #00ffcc;
 }
 a{
     color: black; 
@@ -28,7 +28,10 @@ body {
     margin: 50px auto;
     padding: 20px;
   }
-  
+  .img_logo{
+    max-width: 60px;
+    max-height: auto;
+}
   
   .site-map {
     list-style: none;
@@ -152,4 +155,19 @@ body {
     position: absolute;
     top: 10px;  
     left: 10px; 
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #00ffcc; 
+  margin: 1.4%;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 2px;
+  padding: 6px 10px; /* Espaçamento interno dos links */
 }
