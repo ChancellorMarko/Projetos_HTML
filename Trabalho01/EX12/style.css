@@ -1,0 +1,106 @@
+h1 {
+    font-size: 85px;
+    margin: 23px;
+    padding: 23px;
+    color: black;
+}
+h2 {
+    font-size: 50px;
+    margin: 23px;
+    padding: 23px;
+    color: black;
+}
+a{
+    color: white; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background-color: rgb(129, 5, 125);
+    background-image: url('Imagens/Fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 120vh;
+}
+.img_logo{
+    max-width: 60px;
+    max-height: auto;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  .galeria img {
+    width: 150px;          /* Largura fixa */
+    height: 150px;         /* Altura fixa */
+    object-fit: cover;     /* Corta e ajusta a imagem pra caber certinho */
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  
+  .fullscreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .fullscreen:target {
+    display: flex;
+  }
+  
+  .fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .fechar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    margin: 1.4%;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2px;
+    padding: 6px 10px; /* Espaçamento interno dos links */
+  }
