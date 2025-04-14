@@ -27,40 +27,36 @@
             <a href="../EX15/index.html">EX15</a>
             <a href="../index.html">VOLTAR</a>
         </nav>
-        <div class="container">
-            <div class="form_box">
-            <form action="" method="get">
-               <fieldset>
-                <legend><b>Formulário de Cadastro</b></legend>
-                <br>
-                <div class="formbox">
-                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="inputUser" required>
-                    <label for="nome">Nome completo</label>
-                </div>
-                <div class="formbox">
-                    <input type="email" name="email" id="email" placeholder="Digite seu email" class="inputUser" required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone"placeholder="(xx)xxxxx-xxxx" class="inputUser" required>
-                    <label for ="telefone"> telefone</label>
-                </div>
-                <div>
-                    <input type="text" name="assunto" id="assunto">
-                    <label for="assunto">Assunto</label>
-                    <select name="assunto" id="assunto" class="inputUser" required>
-                        <option value="Selecione">Selecione</option>
-                        <option value="Dúvida">Dúvida</option>
-                        <option value="Reclamação">Reclamação</option>
-                        <option value="Elogio">Elogio</option>
-                        <option value="Solicitação">Solicitação</option>
-                <div>
-                    <input type="text" name="mensagem" id="mensagem" class="inputUser" required>  
-                    <textarea id="mensagem" name="mensagem" cols="30" rows="10"></textarea> 
-                    <label for="mensagem">Mensagem</label> 
-                </div>
-               </fieldset> 
+        <div class="content">
+            <h1 class="Fonte">Formulário</h1>
+            <form>
+              <div>
+                <input type="text" placeholder="Digite seu nome" class="inputs">
+                <span class="Spam-corrected">Nome deve ter no mínimo 3 caracteres</span>
+              </div>
+              <div>
+                <input type="email" placeholder="Digite seu email" class="inputs">
+                <span class="Spam-corrected">Digite um email válido</span>
+              </div>   
+              <div>
+                <input type="tel" placeholder="Digite seu telefone" class="inputs">
+                <span class="Spam-corrected">(xx) xxxxx-xxxx</span>
+              </div> 
+              <p class="title">Como podemos te ajudar?</p>
+              <div class="motivo">
+              <label for="motivo"></label>
+              <select name="motivo" id="motivo">motivo>
+                <option value="Selecione">Selecione</option>
+              <option value="Dúvida">Dúvida</option>
+              <option value="Solicitação">Solicitação</option>
+              <option value="Elogio">Elogio</option>
+              <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
+            </select>
+        </div>
+              <textarea class="inputs" name="mensagem" id="mensagem" cols="25" rows="10" placeholder="Digite sua mensagem aqui.."></textarea>
+            <button type="submit">Enviar</button>
             </form>
         </div>
-</body>
+</body>          
 </html>    
