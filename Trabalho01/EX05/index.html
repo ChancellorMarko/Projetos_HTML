@@ -27,47 +27,41 @@
             <a href="../EX15/index.html">EX15</a>
             <a href="../index.html">VOLTAR</a>
         </nav>
-    <div>
-        <h1>FORMULÁRIO DE CADASTRO</h1>
-        <br>
-    </div>
+        <div class="container">
+            <div class="form_box">
+            <form action="" method="get">
+               <fieldset>
+                <legend><b>Formulário de Cadastro</b></legend>
+                <br>
+                <div class="formbox">
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="inputUser" required>
+                    <label for="nome">Nome completo</label>
+                </div>
+                <div class="formbox">
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" class="inputUser" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone"placeholder="(xx)xxxxx-xxxx" class="inputUser" required>
+                    <label for ="telefone"> telefone</label>
+                </div>
+                <div>
+                    
+                    <input type="text" name="assunto" id="assunto">
+                    <select name="assunto" id="assunto" class="inputUser" required>
+                        <option value="Selecione">Selecione</option>
+                        <option value="Dúvida">Dúvida</option>
+                        <option value="Reclamação">Reclamação</option>
+                        <option value="Elogio">Elogio</option>
+                        <option value="Solicitação">Solicitação</option>
 
-    <form>
-        <fieldset>
-            <div id="Nome">
-                <label>Nome:</label>
-                <input type="text" name="Nome" id="Nome">
-            </div>
-
-        <div id="Email">
-            <label>Email:</label>
-            <input type="email" name="Email" id="Email">
+                <div>
+                    <input type="text" name="mensagem" id="mensagem" class="inputUser" required>  
+                    <textarea id="mensagem" name="mensagem" cols="30" rows="10"></textarea> 
+                    <label for="mensagem">Mensagem</label> 
+                </div>
+               </fieldset> 
+            </form>
         </div>
-
-        <div>
-            <label>Telefone:</label>
-            <input type="tel" name="Telefone" id="Telefone">
-        </div>
-
-        <div>
-            <label>Assunto:</label>
-            <select id="Assunto">
-                <option selected disable value= "Selecione" >Selecione</option>
-                <option>Sugestão</option>
-                <option>Solicitação</option>
-                <option>Reclamação</option>
-                <option>Outro assunto</option>
-            </select>
-        </div>
-
-        <div>
-            <label>Mensagem:</label>
-            <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
-        </div>
-    </fieldset>
-       
-    </form>
-   
-    
 </body>
-</html>
+</html>    
