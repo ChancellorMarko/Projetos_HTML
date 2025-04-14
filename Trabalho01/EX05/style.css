@@ -16,6 +16,7 @@ body {
 }
 .content{
     background-color: rgb(70, 71, 71);
+    box-shadow: 5px 10px 18px #f4097e;
     padding: 0.5rem;
     border-radius: 10px;
     min-width: 20%;
