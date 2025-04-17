@@ -4,29 +4,66 @@
 }
 body {  
     font-family: Arial, sans-serif;
-    background-color: #0f0e0e;
-    background-image: url(imagens/fundo.jpg);
-    background-repeat: no-repeat;
+    background-image: url(imagens/fundoo.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
     flex-direction: column;
+    display: flex;
     align-items: center;
     height: 100vh;  
 }
 .content{
-    background-color: rgb(222, 220, 220);
-    padding: 30px 480px;
+    background-color: rgb(56, 58, 114)
+    padding: 20px 100px;
+    width: 1200px;
     border-radius: 2px;
-    min-width: 30%;
+    text-align-last: center;
+    justify-content: center;
     margin-top: 10px;
-    overflow: auto;
+    overflow:auto;
 }
-
+.Titulo{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgb(246, 44, 233);
+    font: italic bold 20px/30px helvetica, sans-serif;
+    font-size: 200%;
+}
+.intro{
+    color: rgb(255, 253, 253);
+    font-size: 100%;
+    margin-top: 5px;
+    text-align: justify;
+}
+.escopo{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+}
+.quadrado{
+    background-color: rgb(170, 172, 172);
+    padding: 120px;
+    width: 460px;
+    color: rgb(24, 23, 23);
+    font-size: 80%;
+    text-align: justify;
+}
+.inicio{
+    font-family: Arial;
+    font-size: 200%;
+    text-align: left;
+}
+.questão{
+    color: rgb(24, 23, 23);
+    font-size: 100%;
+    margin-top: 2px;
+    text-align:justify;
+}
 .nav {
     display: flex;
     align-items: center;
-    background-color: rgb(43, 23, 89);
+    background-color: rgb(56, 58, 114);
     padding: 10px 20px;
     border-radius: 8px;
     margin-top: 10px;
@@ -34,7 +71,7 @@ body {
     margin-right: 5px;
 }
 nav a {
-    color: rgb(52, 204, 246);
+    color: rgb(237, 22, 249);
     text-decoration: none;
     margin: 0 2px;
     padding: 6px 10px; /* Espaçamento interno dos links */
@@ -43,6 +80,9 @@ nav a {
     
 }
 .img_icon{
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(15, 244, 11, 0.921);
+    border-radius: 180px; /* opcional, só pra deixar mais bonito */
     max-width: 50px;
     max-height: 50px;
     margin-right: 10px;
