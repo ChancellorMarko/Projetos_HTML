@@ -80,9 +80,6 @@ nav a {
     
 }
 .img_icon{
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(15, 244, 11, 0.921);
-    border-radius: 180px; /* opcional, só pra deixar mais bonito */
     max-width: 50px;
     max-height: 50px;
     margin-right: 10px;
