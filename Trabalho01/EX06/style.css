@@ -14,39 +14,30 @@ body {
 }
 .content{
     background-color: rgb(56, 58, 114);
-    padding: 20px 100px;
-    width: 1200px;
+    padding: 10px 20px;
+    width: 1240px;
     border-radius: 2px;
-    text-align-last: center;
+    margin-top: 10px;
     justify-content: center;
     margin-top: 10px;
     overflow:auto;
 }
-.Titulo{
-    margin-bottom: 1rem;
+h1{
     text-align: center;
+    color: rgb(190, 154, 187);
+    font-size: 100%;
+}
+.Tittle{
+    margin-bottom: 5rem;
+    text-align:center;
     color: rgb(246, 44, 233);
-    font: italic bold 20px/30px helvetica, sans-serif;
-    font-size: 200%;
+    font: italic bold 20;
+    font-size: 180%;
 }
 .intro{
     color: rgb(255, 253, 253);
     font-size: 100%;
-    margin-top: 5px;
-    text-align: justify;
-}
-.escopo{
-    
-    padding: 20px;
-    display: flex;
-    flex-direction:row;
-}
-.quadrado{
-    background-color: rgb(170, 172, 172);
-    padding: 120px;
-    width: 460px;
-    color: rgb(24, 23, 23);
-    font-size: 80%;
+    margin-top: 3%;
     text-align: justify;
 }
 .inicio{
@@ -55,8 +46,15 @@ body {
     text-align: left;
 }
 .questão{
-    color: rgb(24, 23, 23);
-    font-size: 100%;
+    color: rgb(221, 217, 217);
+    font-size: 130%;
+    margin-top: 2px;
+    text-align:justify;
+    font-weight: bold;
+}
+.resposta{
+    color: rgb(228, 227, 227);
+    font-size: 115%;
     margin-top: 2px;
     text-align:justify;
 }
