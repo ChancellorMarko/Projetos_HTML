@@ -1,66 +1,91 @@
-body{
-    background-image: url("images/pizza_image.jpg");
-    background-size: cover; /* cobre o fundo todo*/
-    background-position: center; /* centraliza */
-    background-repeat: no-repeat; /* não permite repetição */
-    height: 100vh; /* garante que ocupe a tela toda */
-    color: white;
+body {
+  background-image: url("images/pizza_image.jpg");
+  background-size: cover; /* cobre o fundo todo */
+  background-position: center; /* centraliza */
+  background-repeat: no-repeat; /* não permite repetição */
+  height: 100vh; /* garante que ocupe a tela toda */
+  color: white;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
 }
 
-main{
-    margin-top: 50px;
-    margin-left: 550px;
+main {
+	margin-top: 50px;
+	margin-left: 550px;
 }
 
-h1 { /* Título pizza hut */
-    font-size: 65px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 700;
-    color:rgb(204, 142, 85);
+h1 {
+	/* Título pizza hut */
+	font-size: 40px;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold; 
+  color: rgb(5, 5, 5);
+	margin-bottom: 40px;
 }
 
-p { /* Todos os parágrafos */
-    font-size: 20px;
+p {
+	/* Todos os parágrafos */
+	font-size: 20px;
+	color:black
 }
 
-h2{
-    font-size: 160%;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    color:rgb(204, 142, 85);
+h2 {
+	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 800;
+	color: rgb(5, 5, 5);
 }
 
-h3{
-    font-size: 160%;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    color: rgb(204, 142, 85);
+h3 {
+	margin-top: 50px;
+	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 800;
+	color: rgb(5, 5, 5);
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-    background-color: rgb(204, 142, 85); /* Cor de fundo */
-    padding: 10px 20px;
-    border-radius: 8px;
+	display: flex;
+	align-items: center;
+	background-color: rgb(5, 5, 5);
+	/* Cor de fundo */
+	padding: 10px 20px;
+	border-radius: 8px;
 }
 
 nav a {
-    font-size: 140%;
-    color: white;
-    text-decoration: none;
-    margin: 0 2px;
-    padding: 6px 10px; /* Espaçamento interno dos links */
-}
-.img_icon{
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 10px;
+	font-size: 140%;
+	color: white;
+	text-decoration: none;
+	margin: 0 2px;
+	padding: 6px 10px;
+	/* Espaçamento interno dos links */
 }
 
-#nav_icons{
-    display: flex;
-    align-items: center;
-    border-radius: 8px; 
+.img_icon {
+	max-width: 50px;
+	max-height: 50px;
+	margin-right: 10px;
+}
+
+#nav_icons {
+	display: flex;
+	align-items: center;
+	border-radius: 15px;
+	margin-left: 75px;
+}
+.bloco-div {
+  background-color: white;
+  padding: 35px;
+	margin-top: 10px;
+  border-radius: 10px;
+	border: 2px solid black;
+	box-shadow: 0 30px 60px rgba(5, 5, 5, 9.9); 
+  width: 320px;
+  text-align: center; 
+  transform: translate;
+	
 
 }
