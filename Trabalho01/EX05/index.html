@@ -7,68 +7,56 @@
     <title>EX05</title>
 </head>
 <body>
-    <div>
-        <h1>FORMULÁRIO DE CADASTRO</h1>
-        <br>
-    </div>
 
-    <div>
-        <section class="container_link voltar flex flex-wrap">
-            <div class="item_link"><a href="../index.html">Voltar</a></div>
-        </section>
-    </div>
-
-    
-    <form>
-        <fieldset>
-            <div>
-                <label>Nome:</label>
-                <input type="text" name="Nome" id="Nome">
-            </div>
-
-        </fieldset>
-        <div>
-            <label>Email:</label>
-            <input type="email" name="Email" id="Email">
-        </div>
-
-        <div>
-            <label>Assunto:</label>
-            <select id="Assunto">
-                <option>Sugestão</option>
-                <option>Solicitação</option>
-                <option>Reclamação</option>
-                <option>Outro assunto</option>
+        <nav class="nav">
+            <img class="img_icon" src="images/robozinho.png">
+            <a href="../EX01/index.html">EX01</a>
+            <a href="../EX02/index.html">EX02</a>
+            <a href="../EX03/index.html">EX03</a>
+            <a href="../EX04/index.html">EX04</a>
+            <a href="../EX05/index.html">EX05</a>
+            <a href="../EX06/index.html">EX06</a>
+            <a href="../EX07/index.html">EX07</a>
+            <a href="../EX08/index.html">EX08</a>
+            <a href="../EX09/index.html">EX09</a>
+            <a href="../EX10/index.html">EX10</a>
+            <a href="../EX11/index.html">EX11</a>
+            <a href="../EX12/index.html">EX12</a>
+            <a href="../EX13/index.html">EX13</a>
+            <a href="../EX14/index.html">EX14</a>
+            <a href="../EX15/index.html">EX15</a>
+            <a href="../index.html">VOLTAR</a>
+        </nav>
+        <div class="content">
+            <h1 class="Fonte">Formulário</h1>
+            <form>
+              <div>
+                <input type="text" placeholder="Digite seu nome" class="inputs">
+                <span class="Spam-corrected">Nome deve ter no mínimo 3 caracteres</span>
+              </div>
+              <div>
+                <input type="email" placeholder="Digite seu email" class="inputs">
+                <span class="Spam-corrected">Digite um email válido</span>
+              </div>   
+              <div>
+                <input type="tel" placeholder="Digite seu telefone" class="inputs">
+                <span class="Spam-corrected">(xx) xxxxx-xxxx</span>
+              </div> 
+              <p class="title">Como podemos te ajudar?</p>
+              <div class="motivo">
+              <label for="motivo"></label>
+              <select name="motivo" id="motivo">motivo>
+                <option value="Selecione">Selecione</option>
+              <option value="Dúvida">Dúvida</option>
+              <option value="Solicitação">Solicitação</option>
+              <option value="Elogio">Elogio</option>
+              <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
             </select>
-
         </div>
-
-        <div>
-            <label>Qual sua nota para nossos serviços:</label>
-            <br>
-            <label>
-                 <input type="radio" name="Nota" value="1"> 1
-            </label>
-
-            <label>
-                <input type="radio" name="Nota" value="2"> 2
-            </label>
-
-            <label>
-                <input type="radio" name="Nota" value="3"> 3
-            </label>
-
-            <label>
-                <input type="radio" name="Nota" value="4"> 4
-            </label>
-
-            <label>
-                <input type="radio" name="Nota" value="5"> 5
-            </label>
+              <textarea class="inputs" name="mensagem" id="mensagem" cols="25" rows="10" placeholder="Digite sua mensagem aqui.."></textarea>
+            <button type="submit">Enviar</button>
+            </form>
         </div>
-       
-    </form>
-   
-    
-</body>
-</html>
+</body>          
+</html>    

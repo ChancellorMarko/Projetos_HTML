@@ -1,8 +1,8 @@
 function verificar_numero()
 {
-    var num_digitado = prompt("Insira um número:");
+    let num_digitado = prompt("Insira um número:");
 
-    var numero = Number(num_digitado);
+    let numero = Number(num_digitado);
 
     if(numero % 2 == 0)
     {

@@ -27,7 +27,7 @@ a{
 body{
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: rgb(183, 173, 206);
 }
@@ -64,10 +64,9 @@ ins{
 }
 
 .container{
-    margin: 50px;
+    margin: 20px;
     padding: 20px;
-    max-width: 1200px;
-    height: 300px;
+    height: auto;
     justify-content: center; /*Centralizar o conteudo*/
 }
 
@@ -83,10 +82,10 @@ ins{
 
 nav {
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: rgb(172, 138, 170); /* Cor de fundo */
     padding: 10px 20px;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
 }
 
 nav a {

@@ -1,7 +1,113 @@
-body {
-    text-align: center;
+*{
     margin: 0;
-    padding: 0; 
-    font-family: arial, sans-serif;
-    background-color: rgb(105, 99, 105);
+    padding: 0;
+}
+body {  
+    font-family: Helvetica, sans-serif;
+    background-color: #0f0e0e;
+    background-image: url(images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;  
+}
+.content{
+    background-color: rgb(70, 71, 71);
+    box-shadow: 5px 10px 18px #f4097e;
+    padding: 0.5rem;
+    border-radius: 10px;
+    min-width: 20%;
+    margin-top: 10px;
+    overflow: auto;
+}
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #f4097e
+}
+.Fonte{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Spam-corrected{
+    display: none;
+}
+.inputs{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(154, 158, 158);
+    border: 2px solid lab(60.12% 68.09 -12.59);
+    color: rgb(251, 248, 248);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+#motivo{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(160, 157, 159);
+    border: 2px solid rgb(236, 58, 168);
+    color: #0f0e0f;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+
+}
+.title{
+    font-size: 1.5rem;
+    color: #f4097e;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+.inputs:focus{
+    border-color: violet;
+}
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(248, 66, 181);
+    color: #fff;
+    cursor: pointer;
+    transition: .3;
+}
+button[type="submit"]:hover{
+    background-color: rgb(241, 137, 201);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 66, 181);
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav a {
+    color: rgb(252, 247, 250);
+    text-decoration: none;
+    margin: 0 2px;
+    padding: 6px 10px; /* Espaçamento interno dos links */
+    font-size: 140%;
+    margin-left: 10px;
+    
+}
+.img_icon{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
 }
