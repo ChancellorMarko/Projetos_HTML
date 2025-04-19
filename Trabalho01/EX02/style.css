@@ -1,0 +1,98 @@
+body {
+    background-image: url("images/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	background-color:rgb(85, 115, 214);
+	/* Cor de fundo */
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+
+nav a {
+	font-size: 140%;
+	color: white;
+	text-decoration: none;
+	margin: 0 2px;
+	padding: 6px 10px;
+	/* Espaçamento interno dos links */
+}
+.img_icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(248, 246, 246);
+}
+
+.texto {
+    line-height: 1.5;
+    font-size: 20px;
+    color: rgb(248, 246, 246);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.esquerda img {
+    width: 420px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid rgb(85, 115, 214);
+}
+
+.direita {
+    background-color: rgb(85, 115, 214);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    min-width: 250px;
+}
+
+#nav_icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
