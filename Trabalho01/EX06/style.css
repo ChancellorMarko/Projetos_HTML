@@ -1,36 +1,63 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {  
     font-family: Arial, sans-serif;
-    background-image: url(imagens/fundoo.jpg);
+    background-image: url(imagens/fundos.jpg);
     background-size: cover;
     background-position: center;
     flex-direction: column;
     display: flex;
     align-items: center;
-    height: 100vh;  
+    padding: 20px;
+    min-height: 100vh; 
 }
 .content{
-    background-color: rgb(56, 58, 114);
+    background-color: rgb(240,128,128);
     padding: 10px 20px;
-    width: 1240px;
+    width: 100%;
+    max-width: 1240px;
     border-radius: 2px;
     margin-top: 10px;
-    justify-content: center;
-    margin-top: 10px;
-    overflow:auto;
-}
-h1{
     text-align: center;
-    color: rgb(190, 154, 187);
+   }
+h1{
+    color: rgb(255,240,245);
     font-size: 150%;
 }
 h2{
-    text-align: center;
-    color: rgb(190, 154, 187);
+    margin-top: 5px;
+    color: rgb(255,228,225);
     font-size: 100%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    max-width: 1240px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.quadrado{
+    background-color: rgb(255,240,245);
+    padding: 20px;
+    flex: 1 1 500px; /* para crescer e diminuir conforme necessário */
+    min-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(240,128,128);
+    transition: transform 0.2s;
+}
+.bloco{
+    background-color: rgb(255,240,245);
+    padding: 20px;
+    flex: 1 1 500px; /* para crescer e diminuir conforme necessário */
+    min-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(240,128,128);
+    transition: transform 0.2s;
 }
 .intro{
     color: rgb(255, 253, 253);
@@ -39,27 +66,36 @@ h2{
     text-align: justify;
 }
 .inicio{
+    color: rgb(220,20,60);
     font-family: Arial;
     font-size: 200%;
     text-align: left;
 }
 .questão{
-    color: rgb(221, 217, 217);
+    color: rgb(220,20,60);
     font-size: 130%;
     margin-top: 2px;
-    text-align:justify;
     font-weight: bold;
+    cursor: pointer;
 }
 .resposta{
-    color: rgb(228, 227, 227);
+    color: rgb(255,99,71);
     font-size: 115%;
+    font-style: italic;
     margin-top: 2px;
     text-align:justify;
+}
+details{
+    margin-bottom: 10px;
+}
+hr{
+    border: 0.5px solid rgb(178,34, 34);
+    margin: 10px 0;
 }
 .nav {
     display: flex;
     align-items: center;
-    background-color: rgb(56, 58, 114);
+    background-color: rgb(240,128,128);
     padding: 10px 20px;
     border-radius: 8px;
     margin-top: 10px;
@@ -67,7 +103,7 @@ h2{
     margin-right: 5px;
 }
 nav a {
-    color: rgb(237, 22, 249);
+    color: rgb(255,240,245);
     text-decoration: none;
     margin: 0 2px;
     padding: 6px 10px; /* Espaçamento interno dos links */
