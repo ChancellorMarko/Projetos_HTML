@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/fundo4.jpg");
+    background-color: darkgray;
     background-size: cover;
     /* cobre o fundo todo */
     background-position: center;
@@ -14,18 +14,13 @@ body {
     align-items: center;
 }
 
-main {
-    margin-top: 50px;
-    margin-left: 550px;
-
-}
-
 .nav {
     display: flex;
     align-items: center;
-    background-color: rgb(41, 54, 95);
+    background-color: rgb(12, 12, 12);
     padding: 10px 20px;
     border-radius: 8px;
+    border: 2px solid rgb(247, 246, 247);
 }
 
 nav a {
@@ -40,4 +35,43 @@ nav a {
     max-width: 50px;
     max-height: 50px;
     margin-right: 10px;
+}
+
+.bloco-div {
+	background-color:rgb(252, 250, 250);
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: 2px solid rgb(12, 12, 12);
+	box-shadow: 0 20px 50px rgb(10, 10, 10);
+	width: 700px;
+	text-align: center;
+	transform: translate;
+}
+
+.imagens{
+    width: 600px;
+    
+}
+h1{
+    font-size: 40px;
+    color: black;
+    
+}
+h2{
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 80px;
+    color: black;
+}
+.h1-Blog{
+    font-size: 50px;
+    margin-left: 10rem;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+ul.lista-posts {
+    list-style: none;    
 }
