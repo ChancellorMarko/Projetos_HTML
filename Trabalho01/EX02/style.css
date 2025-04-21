@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(142, 143, 145);
+    background-image: url("images/fundo2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 .nav {
 	display: flex;
 	align-items: center;
-	background-color:rgb(246, 247, 248);
+	background-color:rgb(247, 181, 38);
 	/* Cor de fundo */
 	padding: 10px 20px;
 	border-radius: 8px;
@@ -69,15 +69,15 @@ h3{
     height: auto;
     border-radius: 10px;
     border: 5px solid rgb(13, 13, 14);
-    margin-top: 10px;
+    margin-top: 1px;
 }
 
 .direita {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(247, 181, 38);
     border-radius: 10px;
     padding: 20px;
     color: rgb(8, 8, 8);
-    margin-top: 10px;
+    margin-top: 1px;
 }
 
 .container1 {
@@ -113,4 +113,5 @@ h3{
     font-size:30px;
     color: black;
     margin-top: 1px;
+    margin-bottom: 1px;
 }
